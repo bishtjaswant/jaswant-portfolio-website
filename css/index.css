@@ -141,19 +141,15 @@ img {
 }
 
 .wrapper .lead {
-    text-align: left;
-    color: #7b7a7a;
-    font-weight: 600;
-    line-height: 2;
+    color: #424242;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.3rem;
 }
 
-.wrapper .lead{ 
-    color:#9b9999;
-    font-weight: 100;
-    line-height: 2;
-}
+
 /* wrappeer class */
-
+ 
 
 /* header css  */
 
@@ -528,15 +524,20 @@ img {
 
 
 .faq .accordion__container .accordion .accordion__content {
-    font-size: 1.1rem;
-    margin: 0;
-    color: #333;
+    
     padding: .78rem 1rem;
     display: none;
     font-weight: 200;
     box-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 0.3);
 }
 
+
+.faq .accordion__container .accordion .accordion__content p {
+    font-size: 1.7rem;
+    color: #424242;
+    font-weight: 500;
+    text-align: justify;
+}
 
 
 
@@ -682,6 +683,14 @@ html{
        height: 100%;
     }
 
+   
+    .wrapper .lead {
+        color: #616161;
+        font-weight: 700;
+        font-size: 2rem;
+        width: 100%;
+        text-align: justify;
+    }
 
 
     .team{
@@ -763,7 +772,11 @@ html{
         text-transform: capitalize;
         font-size: 2rem;
     }
-    
+    .faq .accordion__container .accordion .accordion__content {
+    font-size: 2.1rem; 
+    color: #616161; 
+    font-weight: 400; 
+}
     
     .footer{
         flex-flow: column-reverse wrap;
